@@ -1,10 +1,10 @@
-﻿# Zivtech
+﻿# Robbie's First Pass at adapting a Vagrant image
 
 ## About
 
-This repository manages Zivtech's development virtual server. It has a number of
-tools that Zivtech uses to help build Drupal sites. Drush is included as well as
-Drush Fetcher which is a tool used to sync copies of Drupal sites between
+This repository manages Robbie's development virtual server. It has a number of
+tools that Robbie enforces that others use to help build Drupal sites. Drush is included
+as well as Drush Fetcher which is a tool used to sync copies of Drupal sites between
 environments. There are also other useful features such as a solr server for
 Drupal search integration.
 
@@ -40,3 +40,5 @@ comment out the line that sets this up in the VagrantFile by placing a # at the
 beginning of the line:
 
     #config.vm.share_folder("web", "/var/www", "www", :nfs => true)
+    
+Liberated from [Zivtech](https://github.com/zivtech/vagrant-development-vm) Thanks friends :-) 
